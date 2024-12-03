@@ -8,3 +8,8 @@ terraform {
 
   backend "local" {}
 }
+
+# Configure the Microsoft Azure Provider
+provider "azurerm" {
+  features {}
+}
